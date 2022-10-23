@@ -1,14 +1,12 @@
 <script>
 	import './global.css'
-	import SearchMovie from '../components/SearchMovie.svelte';
-</script>
+s</script>
 <scelte:head>
 	<title>Movie</title>
 </scelte:head>
 <nav>
 	<a href="/">Movie DataBase</a>
 </nav>
-<SearchMovie />
 
 <style>
 	nav {
@@ -21,7 +19,7 @@
 		font-size: 1rem;
 		font-weight: bold;
 		font-family: 'Poppins';
-		color: black;
+		color: white;
 		text-decoration: none;
 	}
 </style>

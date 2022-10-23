@@ -6,4 +6,5 @@
     const {popularMovies} = data
 
 </script>
+<SearchMovie />
 <Popular {popularMovies} />

@@ -1,6 +1,7 @@
 <script>
     export let data;
     import MovieCard from "../../../components/MovieCard.svelte";
+	import SearchMovie from '../../../components/SearchMovie.svelte';
     console.log(data)
     const {searchMovie} = data
 </script>
@@ -11,7 +12,7 @@
 	{/each}
 </div>
 
-
+<SearchMovie />
 
 <style>
 	.searched-movie {
