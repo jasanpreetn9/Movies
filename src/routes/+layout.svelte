@@ -1,6 +1,6 @@
 <script>
 	import './global.css'
-s</script>
+</script>
 <scelte:head>
 	<title>Movie</title>
 </scelte:head>
