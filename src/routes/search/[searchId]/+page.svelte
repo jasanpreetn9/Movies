@@ -6,13 +6,13 @@
     const {searchMovie} = data
 </script>
 
+<SearchMovie />
 <div class="searched-movie">
 	{#each searchMovie as movie}
 		<MovieCard {movie} />
 	{/each}
 </div>
 
-<SearchMovie />
 
 <style>
 	.searched-movie {
